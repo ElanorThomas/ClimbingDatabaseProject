@@ -1,0 +1,238 @@
+<html>
+    <body>
+        POSTGRES
+        
+        <form id = "competitionForm">
+            <label for="table">Choose a competition:</label><br><br>
+            <label for="compName">Competition Name</label>
+                <select name="compName" id="compNameDropDown">
+                <option value=""></option>
+                <option value = "Asia Cup (B,S) - Bangkok (THA) 2018">Asia Cup (B,S) - Bangkok (THA) 2018</option>
+                <option value = "Asia Cup (B) - Hong Kong (HKG) 2018">Asia Cup (B) - Hong Kong (HKG) 2018</option>
+                <option value = "Asian Championships - Kurayoshi (JPN) 2018">Asian Championships - Kurayoshi (JPN) 2018</option>
+                <option value = "Asian Cup (B) - Hong Kong (HKG) 2019">Asian Cup (B) - Hong Kong (HKG) 2019</option>
+                <option value = "Asian Youth Championships - Chongqing (CHN) 2018">Asian Youth Championships - Chongqing (CHN) 2018</option>
+                <option value = "European Championship (B) - Zakopane (POL) 2019">European Championship (B) - Zakopane (POL) 2019</option>
+                <option value = "European Youth Championships (B) - Brixen (ITA) 2019">European Youth Championships (B) - Brixen (ITA) 2019</option>
+                <option value = "European Youth Championships (B) - Brussels (BEL) 2018">European Youth Championships (B) - Brussels (BEL) 2018</option>
+                <option value = "European Youth Cup (B) - Delft (NED) 2018">European Youth Cup (B) - Delft (NED) 2018</option>
+                <option value = "European Youth Cup (B) - Graz (AUT) 2018">European Youth Cup (B) - Graz (AUT) 2018</option>
+                <option value = "European Youth Cup (B) - Graz (AUT) 2019">European Youth Cup (B) - Graz (AUT) 2019</option>
+                <option value = "European Youth Cup (B) - Sofia (BUL) 2018">European Youth Cup (B) - Sofia (BUL) 2018</option>
+                <option value = "European Youth Cup (B) - Sofia (BUL) 2019">European Youth Cup (B) - Sofia (BUL) 2019</option>
+                <option value = "European Youth Cup (B) - Soure (POR) 2018">European Youth Cup (B) - Soure (POR) 2018</option>
+                <option value = "European Youth Cup (B) - Soure (POR) 2019">European Youth Cup (B) - Soure (POR) 2019</option>
+                <option value = "IFSC Climbing World Championships - Hachioji (JPN) 2019">IFSC Climbing World Championships - Hachioji (JPN) 2019</option>
+                <option value = "IFSC Climbing World Championships - Innsbruck (AUT) 2018">IFSC Climbing World Championships - Innsbruck (AUT) 2018</option>
+                <option value = "IFSC Climbing Worldcup (B,S) - Chongqing (CHN) 2018">IFSC Climbing Worldcup (B,S) - Chongqing (CHN) 2018</option>
+                <option value = "IFSC Climbing Worldcup (B,S) - Chongqing (CHN) 2019">IFSC Climbing Worldcup (B,S) - Chongqing (CHN) 2019</option>
+                <option value = "IFSC Climbing Worldcup (B,S) - Moscow (RUS) 2018">IFSC Climbing Worldcup (B,S) - Moscow (RUS) 2018</option>
+                <option value = "IFSC Climbing Worldcup (B,S) - Moscow (RUS) 2019">IFSC Climbing Worldcup (B,S) - Moscow (RUS) 2019</option>
+                <option value = "IFSC Climbing Worldcup (B,S) - Tai'an (CHN) 2018">IFSC Climbing Worldcup (B,S) - Tai'an (CHN) 2018</option>
+                <option value = "IFSC Climbing Worldcup (B,S) - Wujiang (CHN) 2019">IFSC Climbing Worldcup (B,S) - Wujiang (CHN) 2019</option>
+                <option value = "IFSC Climbing Worldcup (B) - Hachioji (JPN) 2018">IFSC Climbing Worldcup (B) - Hachioji (JPN) 2018</option>
+                <option value = "IFSC Climbing Worldcup (B) - Meiringen (SUI) 2018">IFSC Climbing Worldcup (B) - Meiringen (SUI) 2018</option>
+                <option value = "IFSC Climbing Worldcup (B) - Meiringen (SUI) 2019">IFSC Climbing Worldcup (B) - Meiringen (SUI) 2019</option>
+                <option value = "IFSC Climbing Worldcup (B) - Munich (GER) 2018">IFSC Climbing Worldcup (B) - Munich (GER) 2018</option>
+                <option value = "IFSC Climbing Worldcup (B) - Munich (GER) 2019">IFSC Climbing Worldcup (B) - Munich (GER) 2019</option>
+                <option value = "IFSC Climbing Worldcup (B) - Vail (USA) 2018">IFSC Climbing Worldcup (B) - Vail (USA) 2018</option>
+                <option value = "IFSC Climbing Worldcup (B) - Vail (USA) 2019">IFSC Climbing Worldcup (B) - Vail (USA) 2019</option>
+                <option value = "IFSC PanAmerican Championship (L, S, B, C) - Guayaquil (ECU) 2018">IFSC PanAmerican Championship (L, S, B, C) - Guayaquil (ECU) 2018</option>
+                <option value = "IFSC Youth World Championships -  Arco (ITA) 2019">IFSC Youth World Championships -  Arco (ITA) 2019</option>
+                <option value = "IFSC Youth World Championships -  Moscow (RUS) 2018">IFSC Youth World Championships -  Moscow (RUS) 2018</option>
+
+                </select>
+        </form>
+        <br><button onclick="compQuery()" name="compQuery">Fetch Data</button>
+        <button onclick="document.getElementById('compNameDropDown').value = '';document.getElementById('tableResp').innerHTML = '';document.getElementById('jsonResp').innerHTML = ''">Clear Query</button>
+        <br><br>
+        <div id="tableResp"></div>
+        <div id="jsonResp"></div>
+
+        <br><br>
+
+
+        <form id = "climberForm">
+            <label for="table">Search for a climber:</label><br><br>
+            <label for="name">Climber first name contains:</label>
+                <input type="text" name = "firstName" id = "firstName"><br><br>
+            <label for="name">Climber last name contains:</label>
+                <input type="text" name = "lastName" id = "lastName"><br><br>
+            <label for="cliCountry">Country of origin:</label>
+                <select name="cliCountry" id="cliCountryDropDown">
+                <option value=""></option>
+                <option value="Argentina">Argentina</option>
+                <option value="Austraila">Austraila</option>
+                <option value="Austria">Austria</option>
+                <option value="Belgium">Belgium</option>
+                <option value="Belarus">Belarus</option>
+                <option value="Brazil">Brazil</option>
+                <option value="Bulgaria">Bulgaria</option>
+                <option value="Cambodia">Cambodia</option>
+                <option value="Canada">Canada</option>
+                <option value="Chile">Chile</option>
+                <option value="China">China</option>
+                <option value="Croatia">Croatia</option>
+                <option value="Czech Republic">Czech Republic</option>
+                <option value="Denmark">Denmark</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Spain">Spain</option>
+                <option value="Estonia">Estonia</option>
+                <option value="Finland">Finland</option>
+                <option value="France">France</option>
+                <option value="Great Britain">Great Britain</option>
+                <option value="Georgia">Georgia</option>
+                <option value="Germany">Germany</option>
+                <option value="Greece">Greece</option>
+                <option value="Guatemala">Guatemala</option>
+                <option value="Hong Kong">Hong Kong</option>
+                <option value="Hungary">Hungary</option>
+                <option value="Indonesia">Indonesia</option>
+                <option value="India">India</option>
+                <option value="Iran">Iran</option>
+                <option value="Ireland">Ireland</option>
+                <option value="Israel">Israel</option>
+                <option value="Italy">Italy</option>
+                <option value="Japan">Japan</option>
+                <option value="Kazakhstan">Kazakhstan</option>
+                <option value="Kyrgyzstan">Kyrgyzstan</option>
+                <option value="South Korea">South Korea</option>
+                <option value="Latvia">Latvia</option>
+                <option value="Sri Lanka">Sri Lanka</option>
+                <option value="Lithuania">Lithuania</option>
+                <option value="Luxembourg">Luxembourg</option>
+                <option value="Macau">Macau</option>
+                <option value="Malaysia">Malaysia</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Mongolia">Mongolia</option>
+                <option value="North Macedonia">North Macedonia</option>
+                <option value="Netherlands">Netherlands</option>
+                <option value="Nepal">Nepal</option>
+                <option value="Norway">Norway</option>
+                <option value="New Zealand">New Zealand</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="Peru">Peru</option>
+                <option value="Philippines">Philippines</option>
+                <option value="Poland">Poland</option>
+                <option value="Portugal">Portugal</option>
+                <option value="Romania">Romania</option>
+                <option value="South Africa">Soth Africa</option>
+                <option value="Russia">Russia</option>
+                <option value="Singapore">Singapore</option>
+                <option value="Slovenia">Slovenia</option>
+                <option value="Serbia">Serbia</option>
+                <option value="Switzerland">Switzerland</option>
+                <option value="Slovakia">Slovakia</option>
+                <option value="Sweden">Sweden</option>
+                <option value="Thailand">Thailand</option>
+                <option value="Taiwan">Taiwan</option>
+                <option value="Turkey">Turkkey</option>
+                <option value="Ukraine">Ukraine</option>
+                <option value="United States of America">United States of America</option>
+                <option value="Uzbekistan">Uzbekistan</option>
+                <option value="Venezuela">Venezuela</option>
+                </select>
+        </form>
+        
+        <br>
+        <button onclick="document.getElementById('jsonResp2').innerHTML = ''; climberQuery()" name="query">Fetch Data</button>
+        <button onclick="document.getElementById('cliCountryDropDown').value = '';document.getElementById('firstName').value = '';document.getElementById('lastName').value = '';document.getElementById('tableResp2').innerHTML = '';document.getElementById('jsonResp2').innerHTML = ''">Clear Query</button>
+        <div id="tableResp2"></div>
+        <div id="jsonResp2"></div>
+
+
+
+        <br><br><br>
+
+        Search for Results: <br>
+        <form id = "resultsForm">
+            <label for="rank">Return all the climbers who came in:</label>
+                <input type="text" id = "rank" name = "rank" placeHolder = "(number)">
+                <br>place in any competition in
+
+            <label for="compCountryDropDown"></label>
+                <select name="compCountry" id="compCountryDropDown">
+                <option value="">(country)</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Austraila">Austraila</option>
+                <option value="Austria">Austria</option>
+                <option value="Belgium">Belgium</option>
+                <option value="Belarus">Belarus</option>
+                <option value="Brazil">Brazil</option>
+                <option value="Bulgaria">Bulgaria</option>
+                <option value="Cambodia">Cambodia</option>
+                <option value="Canada">Canada</option>
+                <option value="Chile">Chile</option>
+                <option value="China">China</option>
+                <option value="Croatia">Croatia</option>
+                <option value="Czech Republic">Czech Republic</option>
+                <option value="Denmark">Denmark</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Spain">Spain</option>
+                <option value="Estonia">Estonia</option>
+                <option value="Finland">Finland</option>
+                <option value="France">France</option>
+                <option value="Great Britain">Great Britain</option>
+                <option value="Georgia">Georgia</option>
+                <option value="Germany">Germany</option>
+                <option value="Greece">Greece</option>
+                <option value="Guatemala">Guatemala</option>
+                <option value="Hong Kong">Hong Kong</option>
+                <option value="Hungary">Hungary</option>
+                <option value="Indonesia">Indonesia</option>
+                <option value="India">India</option>
+                <option value="Iran">Iran</option>
+                <option value="Ireland">Ireland</option>
+                <option value="Israel">Israel</option>
+                <option value="Italy">Italy</option>
+                <option value="Japan">Japan</option>
+                <option value="Kazakhstan">Kazakhstan</option>
+                <option value="Kyrgyzstan">Kyrgyzstan</option>
+                <option value="South Korea">South Korea</option>
+                <option value="Latvia">Latvia</option>
+                <option value="Sri Lanka">Sri Lanka</option>
+                <option value="Lithuania">Lithuania</option>
+                <option value="Luxembourg">Luxembourg</option>
+                <option value="Macau">Macau</option>
+                <option value="Malaysia">Malaysia</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Mongolia">Mongolia</option>
+                <option value="North Macedonia">North Macedonia</option>
+                <option value="Netherlands">Netherlands</option>
+                <option value="Nepal">Nepal</option>
+                <option value="Norway">Norway</option>
+                <option value="New Zealand">New Zealand</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="Peru">Peru</option>
+                <option value="Philippines">Philippines</option>
+                <option value="Poland">Poland</option>
+                <option value="Portugal">Portugal</option>
+                <option value="Romania">Romania</option>
+                <option value="South Africa">Soth Africa</option>
+                <option value="Russia">Russia</option>
+                <option value="Singapore">Singapore</option>
+                <option value="Slovenia">Slovenia</option>
+                <option value="Serbia">Serbia</option>
+                <option value="Switzerland">Switzerland</option>
+                <option value="Slovakia">Slovakia</option>
+                <option value="Sweden">Sweden</option>
+                <option value="Thailand">Thailand</option>
+                <option value="Taiwan">Taiwan</option>
+                <option value="Turkey">Turkkey</option>
+                <option value="Ukraine">Ukraine</option>
+                <option value="United States of America">United States of America</option>
+                <option value="Uzbekistan">Uzbekistan</option>
+                <option value="Venezuela">Venezuela</option>
+                </select>
+
+        </form>
+        <br><button onclick="resultsQuery()" name="resQuery">Fetch Data</button>
+        <button onclick="document.getElementById('compCountryDropDown').value = '';document.getElementById('rank').value = '';document.getElementById('tableResp3').innerHTML = '';document.getElementById('jsonResp3').innerHTML = ''">Clear Query</button>
+        <br><br>
+        <div id="tableResp3"></div>
+        <div id="jsonResp3"></div>
+
+
+    </body>
+    <script language="javascript" src="postGresClientSide.js"></script>
+</html>
