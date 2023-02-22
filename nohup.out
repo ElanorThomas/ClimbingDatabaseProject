@@ -1,0 +1,1939 @@
+Created pool  BoundPool {
+  _events: [Object: null prototype] {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: {
+    user: 'dbuser',
+    host: 'localhost',
+    database: 'ethomas',
+    port: 5432,
+    max: 10,
+    maxUses: Infinity,
+    allowExitOnIdle: false,
+    maxLifetimeSeconds: 0,
+    idleTimeoutMillis: 10000
+  },
+  log: [Function (anonymous)],
+  Client: [class Client extends EventEmitter] {
+    Query: [class Query extends EventEmitter]
+  },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _expired: WeakSet { <items unknown> },
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false,
+  [Symbol(kCapture)]: false
+}
+Server created Successfully on port 44265
+node:events:504
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::44266
+    at Server.setupListenHandle [as _listen2] (node:net:1330:16)
+    at listenInCluster (node:net:1378:12)
+    at Server.listen (node:net:1465:7)
+    at Function.listen (/home/ethomas/CS383/HW5.1/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/ethomas/CS383/HW5.1/mongoEx2.js:36:5)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1357:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 44266
+}
+{ firstName: 'Naile', lastName: '', cliCountry: '' }
+bbb
+[]
+{ firstName: 'naile', lastName: '', cliCountry: '' }
+bbb
+[]
+{ firstName: '', lastName: '', cliCountry: 'Austria' }
+bbb
+[
+  {
+    climberid: 7,
+    firstname: 'Julia',
+    lastname: 'LOTZ',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 16,
+    firstname: 'Mona',
+    lastname: 'JENEWEIN',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 18,
+    firstname: 'Jana',
+    lastname: 'RAUTH',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 54,
+    firstname: 'Lea',
+    lastname: 'KEMPF',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 57,
+    firstname: 'Emilia',
+    lastname: 'WARENSKI',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 58,
+    firstname: 'Lena',
+    lastname: 'SCHRITTWIESER',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 70,
+    firstname: 'Lena',
+    lastname: 'BREUSS',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 107,
+    firstname: 'Sandra',
+    lastname: 'LETTNER',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 117,
+    firstname: 'Eva Maria',
+    lastname: 'HAMMELMÜLLER',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 120,
+    firstname: 'Celina',
+    lastname: 'SCHOIBL',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 123,
+    firstname: 'Mattea',
+    lastname: 'PÖTZI',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 140,
+    firstname: 'Lawrence',
+    lastname: 'BOGESCHDORFER',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 172,
+    firstname: 'Alexander',
+    lastname: 'HARLACHER',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 198,
+    firstname: 'Robin',
+    lastname: 'KIRCHMAIR',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 206,
+    firstname: 'David',
+    lastname: 'ZINSLER',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 239,
+    firstname: 'Stefan',
+    lastname: 'SCHERZ',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 240,
+    firstname: 'Nicolai',
+    lastname: 'UZNIK',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 275,
+    firstname: 'Louis',
+    lastname: 'GUNDOLF',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 288,
+    firstname: 'Johanna',
+    lastname: 'FÄRBER',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 320,
+    firstname: 'Florian',
+    lastname: 'KLINGLER',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 324,
+    firstname: 'Alfons',
+    lastname: 'DORNAUER',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 328,
+    firstname: 'Matthias',
+    lastname: 'ERBER',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 331,
+    firstname: 'Jan-Luca',
+    lastname: 'POSCH',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 408,
+    firstname: 'Marie',
+    lastname: 'SCHÖPFER',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 493,
+    firstname: 'Thomas',
+    lastname: 'PODOLAN',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 497,
+    firstname: 'Johannes',
+    lastname: 'HOFHERR',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 662,
+    firstname: 'Jessica',
+    lastname: 'PILZ',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 707,
+    firstname: 'Jakob',
+    lastname: 'SCHUBERT',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 799,
+    firstname: 'Berit',
+    lastname: 'SCHWAIGER',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 808,
+    firstname: 'Laura',
+    lastname: 'STÖCKLER',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 848,
+    firstname: 'Laura',
+    lastname: 'LAMMER',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 896,
+    firstname: 'Stephan',
+    lastname: 'REST',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 903,
+    firstname: 'Julia',
+    lastname: 'PINGGERA',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 934,
+    firstname: 'Georg',
+    lastname: 'PARMA',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 967,
+    firstname: 'Stephanie',
+    lastname: 'LEITNER',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 975,
+    firstname: 'Olivia',
+    lastname: 'MERCKENS',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 983,
+    firstname: 'Magdalena',
+    lastname: 'KOMPEIN',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 1001,
+    firstname: 'Christoph',
+    lastname: 'BRÄUER',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 1004,
+    firstname: 'Andreas',
+    lastname: 'HOFHERR',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 1018,
+    firstname: 'Julian',
+    lastname: 'WIMMER',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 1024,
+    firstname: 'David',
+    lastname: 'RUNGGATSCHER',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 1027,
+    firstname: 'Emil',
+    lastname: 'TEUFEL',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 1034,
+    firstname: 'Roman',
+    lastname: 'NEUWIRTH',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 1114,
+    firstname: 'Dominik',
+    lastname: 'HAERTL',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 1126,
+    firstname: 'Franziska',
+    lastname: 'STERRER',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 1326,
+    firstname: 'Katharina',
+    lastname: 'SAURWEIN',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 1330,
+    firstname: 'Karoline',
+    lastname: 'SINNHUBER',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 1357,
+    firstname: 'Elias',
+    lastname: 'WEILER',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 1456,
+    firstname: 'Mathias',
+    lastname: 'POSCH',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 1551,
+    firstname: 'Tobias',
+    lastname: 'PLANGGER',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 1611,
+    firstname: 'Viktoria',
+    lastname: 'PODOLAN',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 1713,
+    firstname: 'Natalie',
+    lastname: 'ABLINGER',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 1717,
+    firstname: 'Lena',
+    lastname: 'LOSINSKYJ',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 1729,
+    firstname: 'Benjamin',
+    lastname: 'HAIDACHER',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 1759,
+    firstname: 'Chiara',
+    lastname: 'SCHAFFERER',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 1776,
+    firstname: 'Kimo',
+    lastname: 'FILIP',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 1781,
+    firstname: 'Maximilian',
+    lastname: 'LENZ',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 1789,
+    firstname: 'Katharina',
+    lastname: 'POSCH',
+    clicountry: 'AUT'
+  },
+  {
+    climberid: 1790,
+    firstname: 'Hannah',
+    lastname: 'SCHUBERT',
+    clicountry: 'AUT'
+  }
+]
+{ firstName: 'Nika', lastName: '', cliCountry: 'Austria' }
+bbb
+[]
+{ firstName: 'ail', lastName: '', cliCountry: 'Austria' }
+bbb
+[]
+{ firstName: 'ail', lastName: '', cliCountry: '' }
+bbb
+[]
+{ firstName: 'ail', lastName: '', cliCountry: '' }
+bbb
+[]
+{ firstName: '', lastName: 'meignan', cliCountry: '' }
+bbb
+[]
+{ firstName: '', lastName: '', cliCountry: 'Belgium' }
+bbb
+[
+  {
+    climberid: 12,
+    firstname: 'Lucie',
+    lastname: 'WATILLON',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 33,
+    firstname: 'Pauline',
+    lastname: 'OURY',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 75,
+    firstname: 'Nore',
+    lastname: 'PELLENS',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 115,
+    firstname: 'Marie',
+    lastname: 'COLOT',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 145,
+    firstname: 'Ties',
+    lastname: 'VANCRAEYNEST',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 156,
+    firstname: 'Luca',
+    lastname: 'FERRARI',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 169,
+    firstname: 'Jasper',
+    lastname: 'VAN MALDEREN',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 223,
+    firstname: 'Jitse',
+    lastname: 'REMES',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 255,
+    firstname: 'Harold',
+    lastname: 'PEETERS',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 271,
+    firstname: 'Lukas',
+    lastname: 'FRANCKAERT',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 379,
+    firstname: 'Lucie',
+    lastname: 'DELCOIGNE',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 729,
+    firstname: 'Nicolas',
+    lastname: 'COLLIN',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 772,
+    firstname: 'Loïc',
+    lastname: 'TIMMERMANS',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 796,
+    firstname: 'Chloe',
+    lastname: 'CAULIER',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 817,
+    firstname: 'Simon',
+    lastname: 'LORENZI',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 828,
+    firstname: 'Charlène',
+    lastname: 'TILBORGHS',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 838,
+    firstname: 'Tine',
+    lastname: 'WALRAEVENS',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 839,
+    firstname: 'Charlotte',
+    lastname: 'WEYNANTS',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 840,
+    firstname: 'Ite',
+    lastname: 'LEMIÈRE',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 851,
+    firstname: 'Ine',
+    lastname: 'VAN ZEGBROECK',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 852,
+    firstname: 'Lisa',
+    lastname: 'HARDIQUEST',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 859,
+    firstname: 'François',
+    lastname: 'MERTENS DE WILMAR',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 879,
+    firstname: 'Arthur',
+    lastname: 'BOUQUET',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 883,
+    firstname: 'Nathan',
+    lastname: 'ROUSSELLE',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 891,
+    firstname: 'Lionel',
+    lastname: 'BAUDUIN',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 892,
+    firstname: 'Mats',
+    lastname: 'VANCRAEYNEST',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 909,
+    firstname: 'Celine',
+    lastname: 'CUYPERS',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 950,
+    firstname: 'Thomas',
+    lastname: 'SALAKENOS',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 954,
+    firstname: 'Arnaud',
+    lastname: 'ANSION',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 986,
+    firstname: 'Marjolein',
+    lastname: 'VANSTRAELEN',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 1037,
+    firstname: 'Louis',
+    lastname: 'DEBRULLE',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 1042,
+    firstname: 'Aiko',
+    lastname: 'HERBOS',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 1045,
+    firstname: 'Heloïse',
+    lastname: 'DOUMONT',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 1070,
+    firstname: 'Camille',
+    lastname: 'DE WIT',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 1361,
+    firstname: 'Stephane',
+    lastname: 'HANSSENS',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 1372,
+    firstname: 'Lukas',
+    lastname: 'GEUKENS',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 1415,
+    firstname: 'Elfe',
+    lastname: 'CLAES',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 1417,
+    firstname: 'Laure-Anne',
+    lastname: 'STEVENS',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 1435,
+    firstname: 'Donatien',
+    lastname: 'MEEUS',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 1441,
+    firstname: 'Hannes',
+    lastname: 'VAN DUYSEN',
+    clicountry: 'BEL'
+  },
+  {
+    climberid: 1460,
+    firstname: 'Brecht',
+    lastname: 'WITTOEK',
+    clicountry: 'BEL'
+  }
+]
+node:internal/modules/cjs/loader:936
+  throw err;
+  ^
+
+Error: Cannot find module '/home/ethomas/CS383/HW5.1/mongoDB.js'
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+Server created Successfully on port 44266
+Created pool  BoundPool {
+  _events: [Object: null prototype] {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  options: {
+    user: 'dbuser',
+    host: 'localhost',
+    database: 'ethomas',
+    port: 5432,
+    max: 10,
+    maxUses: Infinity,
+    allowExitOnIdle: false,
+    maxLifetimeSeconds: 0,
+    idleTimeoutMillis: 10000
+  },
+  log: [Function (anonymous)],
+  Client: [class Client extends EventEmitter] {
+    Query: [class Query extends EventEmitter]
+  },
+  Promise: [Function: Promise],
+  _clients: [],
+  _idle: [],
+  _expired: WeakSet { <items unknown> },
+  _pendingQueue: [],
+  _endCallback: undefined,
+  ending: false,
+  ended: false,
+  [Symbol(kCapture)]: false
+}
+Server created Successfully on port 44265
+[
+  {
+    compid: 28,
+    compname: 'European Youth Cup (B) - Soure (POR) 2018',
+    compcountry: 'POR',
+    city: 'Soure',
+    startdate: 2018-05-05T04:00:00.000Z,
+    enddate: 2018-05-06T04:00:00.000Z
+  }
+]
+[
+  {
+    compid: 28,
+    climberid: 107,
+    startnumber: '1',
+    rank: 1,
+    qualification: '7T8z89',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '4T4z75',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 456,
+    startnumber: '79',
+    rank: 2,
+    qualification: '8T8z168',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '3T4z45',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 3,
+    startnumber: '167',
+    rank: 3,
+    qualification: '8T8z1714',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '3T4z46',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 120,
+    startnumber: '2',
+    rank: 4,
+    qualification: '8T8z1711',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '3T3z43',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 2,
+    startnumber: '108',
+    rank: 5,
+    qualification: '7T8z1011',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '3T3z105',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 357,
+    startnumber: '66',
+    rank: 6,
+    qualification: '8T8z129',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '2T3z35',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 1078,
+    startnumber: '80',
+    rank: 7,
+    qualification: '7T8z119',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '1T4z36',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 464,
+    startnumber: '107',
+    rank: 8,
+    qualification: '7T8z1112',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '1T3z13',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 848,
+    startnumber: '3',
+    rank: 9,
+    qualification: '7T8z910',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '1T3z15',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 15,
+    startnumber: '131',
+    rank: 10,
+    qualification: '7T7z2014',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '0T3z06',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 849,
+    startnumber: '43',
+    rank: 11,
+    qualification: '6T7z78',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 379,
+    startnumber: '11',
+    rank: 12,
+    qualification: '6T6z139',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 1390,
+    startnumber: '44',
+    rank: 13,
+    qualification: '5T8z510',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 1391,
+    startnumber: '45',
+    rank: 14,
+    qualification: '5T7z99',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 970,
+    startnumber: '81',
+    rank: 15,
+    qualification: '5T7z1111',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 115,
+    startnumber: '10',
+    rank: 16,
+    qualification: '5T6z98',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 25,
+    startnumber: '137',
+    rank: 17,
+    qualification: '5T6z1311',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 19,
+    startnumber: '26',
+    rank: 18,
+    qualification: '5T5z127',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 463,
+    startnumber: '29',
+    rank: 19,
+    qualification: '4T6z68',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 28,
+    startnumber: '25',
+    rank: 20,
+    qualification: '4T6z610',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 810,
+    startnumber: '32',
+    rank: 21,
+    qualification: '4T6z89',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 852,
+    startnumber: '13',
+    rank: 22,
+    qualification: '4T5z88',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 1749,
+    startnumber: '109',
+    rank: 23,
+    qualification: '4T5z95',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 465,
+    startnumber: '67',
+    rank: 24,
+    qualification: '3T5z68',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 855,
+    startnumber: '110',
+    rank: 25,
+    qualification: '3T4z45',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 1750,
+    startnumber: '31',
+    rank: 26,
+    qualification: '3T3z75',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 367,
+    startnumber: '30',
+    rank: 27,
+    qualification: '2T4z27',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 1070,
+    startnumber: '12',
+    rank: 28,
+    qualification: '2T3z34',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 44,
+    startnumber: '98',
+    rank: 29,
+    qualification: '1T2z13',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 978,
+    startnumber: '144',
+    rank: 29,
+    qualification: '1T2z13',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 1079,
+    startnumber: '145',
+    rank: 31,
+    qualification: '0T1z01',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 1751,
+    startnumber: '146',
+    rank: 31,
+    qualification: '0T1z01',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 1,
+    startnumber: '46',
+    rank: 1,
+    qualification: '8T8z99',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '4T4z44',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 353,
+    startnumber: '47',
+    rank: 2,
+    qualification: '8T8z99',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '4T4z65',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 7,
+    startnumber: '4',
+    rank: 3,
+    qualification: '8T8z1110',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '4T4z65',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 1399,
+    startnumber: '48',
+    rank: 4,
+    qualification: '8T8z1612',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '4T4z106',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 11,
+    startnumber: '157',
+    rank: 5,
+    qualification: '8T8z1613',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '3T4z77',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 29,
+    startnumber: '114',
+    rank: 6,
+    qualification: '6T7z1114',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '3T4z78',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 1398,
+    startnumber: '158',
+    rank: 7,
+    qualification: '6T7z1314',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '3T4z86',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 967,
+    startnumber: '5',
+    rank: 8,
+    qualification: '7T7z138',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '3T4z1211',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 39,
+    startnumber: '113',
+    rank: 9,
+    qualification: '8T8z1611',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '2T4z57',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 12,
+    startnumber: '14',
+    rank: 10,
+    qualification: '7T8z1415',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '2T3z45',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 837,
+    startnumber: '82',
+    rank: 11,
+    qualification: '6T6z96',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 302,
+    startnumber: '140',
+    rank: 12,
+    qualification: '6T6z1210',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 66,
+    startnumber: '161',
+    rank: 13,
+    qualification: '5T8z915',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 33,
+    startnumber: '15',
+    rank: 14,
+    qualification: '5T7z913',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 88,
+    startnumber: '162',
+    rank: 15,
+    qualification: '5T7z915',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 77,
+    startnumber: '156',
+    rank: 16,
+    qualification: '5T7z1011',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 829,
+    startnumber: '49',
+    rank: 17,
+    qualification: '5T6z88',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 403,
+    startnumber: '28',
+    rank: 18,
+    qualification: '4T7z414',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 75,
+    startnumber: '16',
+    rank: 19,
+    qualification: '4T7z1111',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 60,
+    startnumber: '112',
+    rank: 20,
+    qualification: '4T6z46',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 87,
+    startnumber: '111',
+    rank: 21,
+    qualification: '4T6z512',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 23,
+    startnumber: '160',
+    rank: 22,
+    qualification: '4T6z911',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 82,
+    startnumber: '33',
+    rank: 23,
+    qualification: '4T6z1010',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 1408,
+    startnumber: '68',
+    rank: 24,
+    qualification: '4T5z65',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 1071,
+    startnumber: '101',
+    rank: 25,
+    qualification: '4T5z108',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 31,
+    startnumber: '69',
+    rank: 26,
+    qualification: '3T5z59',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 91,
+    startnumber: '70',
+    rank: 27,
+    qualification: '3T5z77',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 48,
+    startnumber: '100',
+    rank: 28,
+    qualification: '3T5z86',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 1405,
+    startnumber: '71',
+    rank: 29,
+    qualification: '3T5z87',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 378,
+    startnumber: '94',
+    rank: 30,
+    qualification: '3T5z126',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 429,
+    startnumber: '27',
+    rank: 31,
+    qualification: '3T4z34',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 838,
+    startnumber: '17',
+    rank: 32,
+    qualification: '3T4z64',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 428,
+    startnumber: '34',
+    rank: 33,
+    qualification: '3T4z88',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 433,
+    startnumber: '141',
+    rank: 34,
+    qualification: '2T4z86',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 1752,
+    startnumber: '99',
+    rank: 35,
+    qualification: '0T4z06',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 50,
+    startnumber: '147',
+    rank: 36,
+    qualification: '0T3z04',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 283,
+    startnumber: '159',
+    rank: 1,
+    qualification: '7T8z1412',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '4T4z97',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 111,
+    startnumber: '51',
+    rank: 2,
+    qualification: '6T8z1311',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '3T3z33',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 850,
+    startnumber: '52',
+    rank: 3,
+    qualification: '7T8z1214',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '3T3z66',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 1541,
+    startnumber: '53',
+    rank: 4,
+    qualification: '7T7z128',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '2T4z37',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 808,
+    startnumber: '6',
+    rank: 5,
+    qualification: '7T8z1410',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '2T3z24',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 294,
+    startnumber: '115',
+    rank: 6,
+    qualification: '7T8z1411',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '2T3z33',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 704,
+    startnumber: '72',
+    rank: 7,
+    qualification: '4T5z87',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '2T3z48',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 1411,
+    startnumber: '50',
+    rank: 8,
+    qualification: '6T7z1313',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '1T3z45',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 454,
+    startnumber: '74',
+    rank: 9,
+    qualification: '4T7z812',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '1T2z12',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 1109,
+    startnumber: '132',
+    rank: 10,
+    qualification: '6T6z1111',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '1T2z13',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 912,
+    startnumber: '133',
+    rank: 11,
+    qualification: '4T4z65',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 128,
+    startnumber: '117',
+    rank: 12,
+    qualification: '3T6z714',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 1412,
+    startnumber: '116',
+    rank: 13,
+    qualification: '3T4z35',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 1753,
+    startnumber: '118',
+    rank: 14,
+    qualification: '3T4z77',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 1076,
+    startnumber: '35',
+    rank: 15,
+    qualification: '2T4z510',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 136,
+    startnumber: '148',
+    rank: 16,
+    qualification: '0T2z04',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 496,
+    startnumber: '119',
+    rank: 1,
+    qualification: '6T7z67',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '4T4z108',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 139,
+    startnumber: '38',
+    rank: 2,
+    qualification: '5T7z610',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '3T4z35',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 1549,
+    startnumber: '87',
+    rank: 3,
+    qualification: '5T7z57',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '3T4z67',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 858,
+    startnumber: '58',
+    rank: 4,
+    qualification: '6T7z88',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '2T4z37',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 242,
+    startnumber: '55',
+    rank: 5,
+    qualification: '7T7z107',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '2T4z613',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 1428,
+    startnumber: '56',
+    rank: 6,
+    qualification: '6T7z129',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '2T4z812',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 248,
+    startnumber: '85',
+    rank: 7,
+    qualification: '7T7z169',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '2T4z911',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 505,
+    startnumber: '86',
+    rank: 8,
+    qualification: '5T8z512',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '2T4z1111',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 1723,
+    startnumber: '121',
+    rank: 9,
+    qualification: '6T7z1110',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '2T4z1316',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 247,
+    startnumber: '120',
+    rank: 10,
+    qualification: '7T7z128',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '2T3z1110',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 275,
+    startnumber: '7',
+    rank: 11,
+    qualification: '5T7z88',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 138,
+    startnumber: '36',
+    rank: 12,
+    qualification: '5T7z97',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 165,
+    startnumber: '21',
+    rank: 13,
+    qualification: '5T7z1012',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 1724,
+    startnumber: '88',
+    rank: 14,
+    qualification: '5T7z1313',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 273,
+    startnumber: '138',
+    rank: 15,
+    qualification: '5T5z146',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  {
+    compid: 28,
+    climberid: 1430,
+    startnumber: '122',
+    rank: 16,
+    qualification: '4T7z410',
+    qualification1: '',
+    qualification2: '',
+    semifinal: '',
+    final: '',
+    type: 'boulder'
+  },
+  ... 59 more items
+]
